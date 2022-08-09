@@ -56,11 +56,11 @@ function whichQuad(x, y)
     }
     else if (x = 0)
     {
-        console.log("The point is on the X axis");
+        console.log("The point is on the Y axis");
     }
     else if (y = 0)
     {
-        console.log("The point is on the Y axis");
+        console.log("The point is on the X axis");
     }
 }
 whichQuad();
