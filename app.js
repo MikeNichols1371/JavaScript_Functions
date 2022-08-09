@@ -54,11 +54,11 @@ function whichQuad(x, y)
     {
         console.log("The point is in Quadrant 4");
     }
-    else if (x = 0)
+    else if (x == 0)
     {
         console.log("The point is on the Y axis");
     }
-    else if (y = 0)
+    else if (y == 0)
     {
         console.log("The point is on the X axis");
     }
