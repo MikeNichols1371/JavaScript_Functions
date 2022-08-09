@@ -4,7 +4,7 @@ console.log("Hello World!\n==========\n");
 console.log("EXERCISE 1:\n==========\n");
 function printOdds(count)
  {
-    for (let i = 1; i <= 100; i++)
+    for (let i = 1; i <= count; i++)
     {
         if (i % 2 != 0)
         {
@@ -22,13 +22,15 @@ printOdds();
 console.log("EXERCISE 2:\n==========\n");
 function checkAge(userName, age)
 {
+    let above16 = `Congrats ${userName}, you can drive!`;
+    let below16= `Sorry ${userName}, but you need to wait until your 16.`;
     if (age >= 16)
     {
-        console.log(`Congrats ${userName}, you can drive!`);
+        console.log(above16);
     }    
     else if (age < 16)
     {
-        console.log(`Sorry ${userName}, but you need to wait until your 16.`);
+        console.log(below16);
     }
 }
 checkAge();
